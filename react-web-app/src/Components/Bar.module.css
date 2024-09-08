@@ -1,0 +1,14 @@
+.customBarStyle {
+    height: 4rem;
+    width: 100vw;
+    border-bottom: 1px solid #2b2c2f;
+    border-color: #25262B;
+    background-color: black;
+    border-bottom-width: 2px;  
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: fixed;
+    
+}
