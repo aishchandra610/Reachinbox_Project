@@ -1,0 +1,58 @@
+
+.sidebar {
+  background-color: var(--sidebar-background-color);
+  color: var(--sidebar-text-color);
+  border-right: 2px solid var(--sidebar-border-color);
+  height: 100vh;
+  width: 3.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 1.5rem 0;
+  overflow-y: scroll;
+  scrollbar-width: none;
+  -ms-overflow-style: none;
+}
+
+.sidebar::-webkit-scrollbar {
+  display: none;
+}
+
+/* Logo container  */
+.logoContainer {
+  border-radius: 0.75rem;
+}
+
+.logo {
+  height: 2rem;
+  border-radius: 0.75rem;
+  object-fit: cover;
+}
+
+/* Menu items container  */
+.menu {
+  color: var(--menu-icon-color);
+  font-size: 1.875rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.75rem;
+}
+
+/* Menu item  */
+.menuItem {
+  cursor: pointer;
+  padding: 0.25rem;
+}
+
+.menuItem.active {
+  background-color: #4a4a4a;
+  border-radius: 0.5rem;
+}
+
+/* User avatar  */
+.userAvatar {
+  background-color: #1b5e20;
+  color: white;
+  padding: 0.5rem;
+  border-radius: 50%;
+}

@@ -1,0 +1,46 @@
+.navbar {
+    height: 4rem;
+    width: 100vw;
+    background-color: white;
+    color: #5B5F66;
+    border-bottom: 2px solid #E0E0E0;
+    padding-left: 3.5rem;
+    padding-right: 2.5rem;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    
+}
+
+.navbarDark {
+   
+    color: white;
+    border-bottom-color: #343A40;
+    background-color: #1F1F1F;
+}
+
+.navbarFont {
+    font-weight: 500;
+}
+
+.navbarButton{
+    display: flex;
+    align-items: center;
+    padding-right: 2.5rem;
+}
+.navbarText
+{
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right:2rem ;
+}
+
+.icon {
+    font-size: 1.875rem;
+    margin-left: 0.75rem;
+}

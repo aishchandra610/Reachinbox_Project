@@ -1,0 +1,51 @@
+.themeSwitchContainer {
+    margin-top: 0.5rem;
+    margin-right: 2rem;
+  }
+  
+  .themeSwitch {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+  }
+  
+  .themeSwitchInput {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+  }
+  
+  .themeSwitchLabel {
+    display: flex;
+    align-items: center;
+    background-color: #ccc;
+    border-radius: 50px;
+    width: 50px;
+    height: 24px;
+    position: relative;
+    transition: background-color 0.3s;
+  }
+  
+  .themeSwitchIndicator {
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    background-color: #fff;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    transition: transform 0.3s;
+  }
+  
+  .themeSwitchDecoration {
+    display: none;
+  }
+  
+  .themeSwitchInput:checked + .themeSwitchLabel {
+    background-color: #4CAF50;
+  }
+  
+  .themeSwitchInput:checked + .themeSwitchLabel .themeSwitchIndicator {
+    transform: translateX(26px);
+  }
+  
