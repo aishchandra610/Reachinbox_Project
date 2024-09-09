@@ -8,13 +8,15 @@
 /* Dark mode  */
 .dark {
   --background-color: #121212;
-  --text-color: #ffffff;
+  --text-color: #827c7c;
+  --border-color:grey;
 }
 
 /* Light mode  */
 .light {
   --background-color: #ffffff;
   --text-color: #000000;
+  --border-color:rgb(112, 106, 106);
 }
 
 body {

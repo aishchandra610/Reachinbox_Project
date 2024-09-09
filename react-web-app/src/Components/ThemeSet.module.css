@@ -42,7 +42,7 @@
   }
   
   .themeSwitchInput:checked + .themeSwitchLabel {
-    background-color: #4CAF50;
+    background-color: grey;
   }
   
   .themeSwitchInput:checked + .themeSwitchLabel .themeSwitchIndicator {

@@ -1,0 +1,165 @@
+.allInbox {
+    
+    height: 100%;
+    overflow-y: scroll;
+    /* overflow: hidden; */
+    width: 100%;
+    border-right: 1px solid var(--border-color);;
+  }
+  .allInbox::-webkit-scrollbar{
+    display: none;
+  }
+  
+  .header {
+    padding: 16px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .headerContent {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .title {
+    font-size: 1.5rem;
+    padding-bottom: 12px;
+    color: #4285F4;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+  }
+  
+  .dropdownIcon {
+    margin-left: 8px;
+    font-weight: normal;
+    cursor: pointer;
+  }
+  
+  .count {
+    /* color: black; */
+    font-weight: bold;
+  }
+  
+  .countLabel {
+    color: #7F7F7F;
+    font-weight: normal;
+  }
+  
+  .reloadButton {
+    padding: 12px;
+    margin-top: 12px;
+    /* background-color: white;
+    border: 1px solid #E0E0E0; */
+    border-radius: 12px;
+    cursor: pointer;
+  }
+  
+  
+  .searchBar {
+    margin-top: 16px;
+    padding: 16px;
+  }
+  
+  .searchInputContainer {
+    position: relative;
+  }
+  
+  .searchInput {
+    width: 100%;
+    border-radius: 8px;
+    padding: 8px;
+    padding-left: 32px;
+    width: 80%;
+    
+  }
+  
+  .searchIcon {
+    position: absolute;
+    left: 8px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #B0B0B0;
+    
+  }
+  
+  .newReplies {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 16px;
+  }
+  
+  .countBadge {
+    /* background-color: #ECECEC; */
+    color: #5C7CFA;
+    padding: 4px 8px;
+    border-radius: 16px;
+  }
+  
+  .sorting {
+    display: flex;
+    align-items: center;
+    
+  }
+  
+  .sortingIcon {
+    margin-left: 12px;
+    font-size: 1.25rem;
+  }
+  
+  .emailList {
+    margin-top: 16px;
+  }
+  
+  .mail {
+    border-top: 2px solid #8b8b8b64;
+    margin: 16px;
+    padding: 16px;
+    cursor: pointer;
+  }
+  
+  .mailHeader {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .fromEmail {
+    /* color: black; */
+    font-size: 1.125rem;
+  }
+  
+  .date {
+    color: #919EAB;
+    font-weight: thin;
+  }
+  
+  .subject {
+    padding-top: 8px;
+    color: #5C7CFA;
+  }
+  
+  .tags {
+    display: flex;
+    margin-top: 8px;
+  }
+  
+  .tag {
+    display: flex;
+    align-items: center;
+    padding: 4px 8px;
+    border-radius: 12px;
+    font-size: 0.875rem;
+    margin-right: 8px;
+  }
+  
+  .tagIcon {
+    margin-right: 4px;
+  }
+  
+  .interested {
+    /* background-color: #F0F0F0; */
+    color: #57E0A6;
+  }
+  
+  
+  

@@ -2,9 +2,9 @@ import React, { useState, useEffect } from 'react';
 import styles from './ThemeSet.module.css'; 
 
 const ThemeSet = () => {
-  const [darkMode, setDarkMode] = useState(false);
+  const [darkMode, setDarkMode] = useState(true);
 
-  // Use effect to apply theme changes to the document
+  
   useEffect(() => {
     const root = window.document.documentElement;
     if (darkMode) {

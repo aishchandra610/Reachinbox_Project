@@ -15,7 +15,7 @@
     align-items: center;
 }
 
-/* Container for the login form */
+
 .loginContainer {
     background-color: #111214;
     text-align: center;
@@ -26,14 +26,14 @@
     
 }
 
-/* Title of the login form */
+
 .loginTitle {
     font-size: 1.25rem;
     font-weight: 600; 
     margin-top: 1.5rem; 
 }
 
-/* Google login button */
+
 .googleLoginBtn {
     margin-top: 1.5rem; 
     border: 1px solid rgba(255, 255, 255, 0.4); 
@@ -47,14 +47,14 @@
     text-decoration: none;
 }
 
-/* Google icon */
+
 .googleIcon {
     width: 1rem; 
     margin-right: 0.75rem;
     text-decoration: none;
 }
 
-/* Create account button */
+
 .createAccountBtn {
     background: linear-gradient(to right, #4B63DD, #0524BFFC);
     color: white;
@@ -100,7 +100,7 @@
     
 }
 
-/* Sign in link */
+
 .signinLink {
     color: #C1C2C5;
     text-decoration: none;

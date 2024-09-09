@@ -5,7 +5,7 @@ import ThemeSet from './ThemeSet';
 
 const Navbar = () => {
   return (
-    <div className={`${styles.navbar} ${styles.navbarDark}`}>
+    <div className={`${styles.navbar} `}>
     <div className={styles.navbarFont}>Onebox</div>
     
     <div className={styles.navbarButton}>

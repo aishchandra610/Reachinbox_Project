@@ -1,43 +1,45 @@
 .navbar {
     height: 4rem;
     width: 100vw;
-    background-color: white;
-    color: #5B5F66;
-    border-bottom: 2px solid #E0E0E0;
-    padding-left: 3.5rem;
-    padding-right: 2.5rem;
+    /* padding-right: 2.5rem; */
     top: 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
     position: fixed;
-    
+    background-color: var(--background-color);
+    color: var(--text-color);
+    border-right: 2px solid var(--border-color);
+    border-bottom: 1px var(--border-color) solid;
+
 }
 
 .navbarDark {
-   
+
     color: white;
     border-bottom-color: #343A40;
-    background-color: #1F1F1F;
+    background-color: var(--sidebar-background-color);
+    color: var(--sidebar-text-color);
+    border-right: 2px solid var(--sidebar-border-color);
 }
 
 .navbarFont {
     font-weight: 500;
 }
 
-.navbarButton{
+.navbarButton {
     display: flex;
     align-items: center;
     padding-right: 2.5rem;
 }
-.navbarText
-{
+
+.navbarText {
     width: auto;
     height: auto;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding-right:2rem ;
+    padding-right: 2rem;
 }
 
 .icon {

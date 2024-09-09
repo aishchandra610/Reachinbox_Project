@@ -1,0 +1,61 @@
+
+.loadingContainer {
+  background-color: #eceff3;
+  color: #5b5f66;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: var(--background-color);
+  color: var(--text-color);
+  border-right: 2px solid var(--border-color);
+}
+
+.loadingContainer.dark {
+  background-color: black;
+  color: white;
+}
+
+ /* Main inbox layout */
+.inboxContainer { 
+  background-color: var(--background-color);
+  color: var(--text-color);
+  border-right: 2px solid var(--border-color);
+  display: flex;
+  justify-content: center;
+  padding: 0px;
+  margin: 0px;
+  
+  /* align-items: center;  */
+  /* padding-top: 16px; */
+  width: 100%;
+  height: 100vh;
+  
+  /* overflow: hidden; */
+}
+
+
+
+.inboxLeft {
+  width: 30%;
+  overflow-y: auto; 
+  scrollbar-width: none; 
+}
+
+.inboxCenter {
+  padding: 2rem;
+  width: 46%;
+  overflow-y: auto; 
+  scrollbar-width: none; 
+}
+
+.inboxRight {
+  width: 24%;
+  overflow-y: auto; 
+  scrollbar-width: none; 
+} 
+
+.inboxLeft::-webkit-scrollbar,
+.inboxCenter::-webkit-scrollbar,
+.inboxRight::-webkit-scrollbar {
+  display: none; }

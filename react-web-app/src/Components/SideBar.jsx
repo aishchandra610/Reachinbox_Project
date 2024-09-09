@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
 import { RiHome5Fill, RiMailFill, RiUserSearchLine } from 'react-icons/ri';
-import { IoIosSend } from 'react-icons/io';
-import { FaInbox } from 'react-icons/fa';
 import { IoStatsChartSharp } from 'react-icons/io5';
+import { IoIosSend } from 'react-icons/io';
 import logo from '../assets/logo.svg';
 import { TfiMenuAlt } from 'react-icons/tfi';
+import { FaInbox } from 'react-icons/fa';
 import styles from './SideBar.module.css'; 
 
 function SideBar({ onMenuItemClick }) {
@@ -18,12 +18,13 @@ function SideBar({ onMenuItemClick }) {
   return (
     <div className={styles.sidebar}>
       
-      <div className={styles.logoContainer}>
-        <img src={logo} className={styles.logo} alt="Logo" />
-      </div>
+      
 
       {/* Menu icons list */}
       <div className={styles.menu}>
+      <div className={styles.logoContainer}>
+        <img src={logo} className={styles.logo} alt="Logo" />
+      </div>
         {/* Home icon */}
         <div
           className={`${styles.menuItem} ${selectedItem === '/' ? styles.active : ''}`}
@@ -79,9 +80,10 @@ function SideBar({ onMenuItemClick }) {
         >
           <IoStatsChartSharp />
         </div>
+        <div className={styles.userAvatar}><span>AC</span></div>
+
       </div>
 
-      <div className={styles.userAvatar}>AS</div>
     </div>
   );
 }
